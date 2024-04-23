@@ -11,12 +11,16 @@ Pipeline for variant calling using FASTQ files and for variant annotation and  p
 
 ## First step: quality control and variant calling
 Run the variantcalling.sh script the following way:
+
 bash variantcalling.sh
+
 It will ask you for the prefix of your vcf file, you need to have forward and reversed with same prefiz but first one $prefix_1.FASTQ and second one $prefix_2.FASTQ
+
 You can change the pathway of each software, if they are added to the path, the script will be able to run all of them except picard
 
 ## Second step
 Variant annotation using Annovar.
+
 You can use the Annotation_annovar.sh script, but you have to download all the databases. In contrast, you can use the online version to upload your vcf file: https://wannovar.wglab.org/
 
 ## Filtering and variant priorization
