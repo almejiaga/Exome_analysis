@@ -14,7 +14,7 @@ Run the variantcalling.sh script the following way:
 
 bash variantcalling.sh
 
-It will ask you for the prefix of your vcf file, you need to have forward and reversed with same prefiz but first one $prefix_1.FASTQ and second one $prefix_2.FASTQ
+It will ask you for the name of each file (forward and reverse) of your vcf file,  $name1.fastq.gz and second one $name2.fastq.gz
 
 You can change the pathway of each software, if they are added to the path, the script will be able to run all of them except picard
 
