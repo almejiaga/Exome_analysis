@@ -8,6 +8,7 @@ Pipeline for variant calling using FASTQ files and for variant annotation and  p
 4. picard
 5. GATK >= 4.0
 6. bcftools
+7. Annovar
 
 ## First step: quality control and variant calling
 Run the variantcalling.sh script the following way:
